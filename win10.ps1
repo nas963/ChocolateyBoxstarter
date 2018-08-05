@@ -40,6 +40,7 @@ cinst -y winrar
 cinst -y 7zip
 cinst -y adobereader
 cinst -y sumatrapdf
+cinst -y lightshot
 cinst -y javaruntime
 cinst -y putty.install
 cinst -y git.install 
