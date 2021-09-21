@@ -1,0 +1,122 @@
+Import-Module posh-git
+Import-Module oh-my-posh
+# Set-Theme Paradox
+# Set-PoshPrompt -Theme paradox
+Set-PoshPrompt -Theme emodipt
+
+# Aliases
+# Set-Alias MyAlias Do-ActualThing
+function cd-stock-profiler {
+    cd c:\Soprex\StockProfiler2
+}
+Set-Alias stock cd-stock-profiler
+
+function cd-spclient {
+    cd c:\Soprex\StockProfiler2\client\stock-profiler2\src\
+}
+Set-Alias spclient cd-spclient
+
+function cd-spapi{
+    cd c:\Soprex\StockProfiler2\src\StockProfiler2\StockProfiler.Web\
+}
+Set-Alias spapi cd-spapi
+
+function cd-spis4{
+    cd c:\Soprex\StockProfiler2\src\StockProfiler2\IdentityServer\
+}
+Set-Alias spis4 cd-spis4
+
+function dotnet_watch_run {
+    dotnet watch run
+}
+Set-Alias dwr dotnet_watch_run
+
+function dotnet_run {
+    dotnet run
+}
+Set-Alias dr dotnet_run
+
+function wsl_elk_docker{
+    wsl -d docker-desktop $t sysctl -w vm.max_map_count=262144 
+}
+Set-Alias elkdocker wsl_elk_docker
+
+function user_ports{
+    netsh interface ipv4 show excludedportrange protocol=tcp
+}
+Set-Alias ports user_ports
+
+function docker_compose_up{
+    docker-compose up
+}
+Set-Alias up docker_compose_up
+
+function docker_compose_down{
+    docker-compose down
+}
+Set-Alias down docker_compose_down
+
+function dockerrm{
+    docker rm -f $(docker ps -a -q)
+}
+Import-Module posh-git
+Import-Module oh-my-posh
+# Set-Theme Paradox
+# Set-PoshPrompt -Theme paradox
+Set-PoshPrompt -Theme emodipt
+
+# Aliases
+# Set-Alias MyAlias Do-ActualThing
+function cd-stock-profiler {
+    cd c:\Soprex\StockProfiler2
+}
+Set-Alias stock cd-stock-profiler
+
+function cd-spclient {
+    cd c:\Soprex\StockProfiler2\client\stock-profiler2\src\
+}
+Set-Alias spclient cd-spclient
+
+function cd-spapi{
+    cd c:\Soprex\StockProfiler2\src\StockProfiler2\StockProfiler.Web\
+}
+Set-Alias spapi cd-spapi
+
+function cd-spis4{
+    cd c:\Soprex\StockProfiler2\src\StockProfiler2\IdentityServer\
+}
+Set-Alias spis4 cd-spis4
+
+function dotnet_watch_run {
+    dotnet watch run
+}
+Set-Alias dwr dotnet_watch_run
+
+function dotnet_run {
+    dotnet run
+}
+Set-Alias dr dotnet_run
+
+function wsl_elk_docker{
+    wsl -d docker-desktop $t sysctl -w vm.max_map_count=262144 
+}
+Set-Alias elkdocker wsl_elk_docker
+
+function user_ports{
+    netsh interface ipv4 show excludedportrange protocol=tcp
+}
+Set-Alias ports user_ports
+
+function docker_compose_up{
+    docker-compose up
+}
+Set-Alias up docker_compose_up
+
+function docker_compose_down{
+    docker-compose down
+}
+Set-Alias down docker_compose_down
+
+function dockerrm{
+    docker rm -f $(docker ps -a -q)
+}
